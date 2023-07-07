@@ -1,0 +1,78 @@
+TRABAJO PRACTICO OBLIGATORIO 
+D E V E L O P E R  P O RT F O L I O  
+A continuación, se detallan los requerimientos mínimos que deben cumplir la aplicación web que 
+permitirá gestionar el portfolio de un profesional de sistemas  que deben desarrollarse para aprobar 
+la cursada de la materia Aplicaciones Interactivas – Primer Cuatrimestre 2023. 
+
+RE Q U E RI M I E N T O S   GE N E RA L E S  
+• Cada grupo estará integrado por dos alumnos como máximo. 
+• Cada grupo diseña y desarrolla una aplicación web que permita publicar el curriculum vitae 
+de cada uno de los miembros del equipo.  
+• Si el equipo es de dos alumnos ambos utilizaran el mismo proyecto pero cada uno publicara 
+• El target de las aplicaciones es profesionales de sistemas que están interesados en tener su 
+curriculum vitae publicado para futuras búsquedas laborales. 
+• La aplicación debe ser responsive. 
+• El 40% de la nota se obtiene por el cumplimiento de las funcionalidades y la utilización de 
+buenas prácticas que permiten la reutilización y optimizan la performance del sistema. 
+• El 40% de la nota se obtiene de la usabilidad y experiencia de usuario de la aplicación 
+desarrollada. 
+• El 20% restante se obtiene de la documentación correspondiente. 
+• La aplicación deberá desarrollarse utilizando los siguientes lenguajes y librerías obligatorias: 
+HTML/CSS, React, JavaScript y NodeJS 
+• La base de datos a utilizar es opción del grupo pudiendo escogerse entre SQL (MySql, 
+SqlServer, Postgress) y NO SQL (MongoDB) 
+
+RE Q U E RI M I E N T O S   E S P E C I F I C O S  
+P O RT F O L I O  
+La aplicación debe permitir al profesional publicar como mínimo la siguiente información: 
+ 
+ Datos personales: //esta seccion es ta en Contáctame y Acerca de Mi
+o Nombre y apellido 
+o Email de contacto 
+o Perfil Linkedin 
+o Teléfono de contacto 
+o Localidad 
+
+ Perfil profesional: 
+o Descripción del perfil profesional del postulante 
+ Fortalezas 
+ Idiomas 
+ Certificaciones 
+o Título Certificación 
+o Institución otorgante 
+o Año 
+2 
+ Formación 
+o Titulo 
+o Institución 
+o Año Egreso 
+ Aptitudes 
+o Soft Skills 
+o Hard Skills 
+ Experiencia profesional 
+o Periodo 
+o Empresa 
+o Posición 
+o Descripción de las tareas efectuadas. Hitos importantes. 
+ 
+Adicionalmente se puede agregar otros tópicos como:
+hobbies, 
+desarrollos, 
+links a repositorios, etc. 
+
+C O N T A C T O  
+Los usuarios podrán completar un formulario para contactar con el profesional en donde deberán 
+informar: 
+ Nombre y apellido 
+ Dirección email 
+ Teléfono de contacto 
+El sistema deberá validar que la dirección email es valida enviando un correo que solicite la 
+confirmación. 
+En caso de dirección valida se guardará el registro para que el profesional pueda contactarse. 
+
+V I S U A L I Z A C I O N   D E   C O N T A C T O S   I N T E RE S A D O S  
+El sistema debe permitir al profesional consultar los contactos solicitados y validados. Para ello el 
+sistema ofrece una pantalla en donde el profesional deberá autenticarse. 
+Una vez verificada la identidad se muestra una tabla con los contactos validados.
+
+
