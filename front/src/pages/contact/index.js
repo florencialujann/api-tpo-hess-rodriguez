@@ -49,9 +49,7 @@ export const ContactUs = () => {
       setShowModal(true);
       
     }
-    else {
-      console.error(error);
-    }
+    
 
     
     setMail_Name("");
